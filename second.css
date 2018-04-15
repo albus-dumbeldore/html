@@ -1,0 +1,22 @@
+
+body{
+	background:pink;
+}
+h3{
+	background:black;
+	color:red;
+
+	border:5px solid purple;
+}
+li{
+	border-color:purple;
+	border-width:2px;
+	border-style:solid;
+}
+#special{
+	color:blue;
+}
+
+p{
+	border:2px solid purple;
+}

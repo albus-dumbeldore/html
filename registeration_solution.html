@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<h1>Register</h1>
+<form>
+	<label> First Name:<input type="text" placeholder="john" required></label>
+	<label>Last Name:<input type="text" placeholder="smith" required></label>
+
+<div>
+<!-- the reason why we used name below to select only one radio button keeping the name same in all cases-->
+
+    <label for="connecting">Male</label>
+	<input type="radio" name="one" id="connecting" required>
+    
+    <label for="connecting1">Female</label>
+	<input type="radio" name="one" id="connecting1" required>
+    
+    <label for="connecting2">Other</label>
+	<input type="radio" name="one" id="connecting2" required>
+</div>
+<div>
+	<label>Email:<input name="email" type="email" placeholder="your email" required></label>
+	<label>Password:<input name="password" type="password" placeholder="password" pattern=".{5,10}" required title="5 to 10 characters" required></label>
+</div>
+<div>
+	<label>Birthday:
+		<select name="month">
+		</select>
+		<select name="date">
+		</select>
+		<select name="year">
+		</select>
+	</label>
+</div>
+<div>
+I agree to the terms and conditions 
+<input type="checkbox">
+</div>
+<div><button>Submit</button></div>
+</form>
+</body>
+</html>
